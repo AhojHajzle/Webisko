@@ -1,9 +1,9 @@
-*{
+/*{
     margin: 0;
     padding: 0;
     background: rgb(255, 255, 255);
     cursor: url("imgs/th.png"), auto;
-}
+}*/
 
 .backdrop{
     height: 100vh;
@@ -11,6 +11,12 @@
     background-color: white;
     pointer-events: none;
     -ms-flex-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80%;
+    background-color: black;
     
 }
 .backdrop:hover{
@@ -26,3 +32,10 @@
     width: 1rem;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+
+}
