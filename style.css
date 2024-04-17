@@ -6,17 +6,22 @@
 }
 
 body{
-    
+    background-image: url("imgs/eddb58199250e1ea5faaf9a867b7265b.png");
     background-color: #154D66;
 }
 
 h1{
     color: white;
     background-color: #131416;
-    font-family: "Great Vibes", cursive;
+    
     font-weight: 400;
     font-style: normal;
 }
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 .color-basic{
     background-color: #131416;
@@ -54,10 +59,37 @@ h1{
     width: 1rem;
 }
 
+.center-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98.3vh;
+}
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 98.3vh;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #131416;
+}
+
+.left-side{
+    margin-left: 20px;
+    background: rgba(255, 0, 0, 0.4);
+    height: 98.3vh;
+    width: 17.5%;
+    position: absolute;
+}
+
+.right-side{
+    margin-right: 20px;
+    background: rgba(255, 0, 0, 0.4);
+    top: 10px;
+    right: 10px;
+    height: 98.3vh;
+    width: 17.5%;
+    position: fixed;
+    float: right;
 }
